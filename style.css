@@ -1,0 +1,109 @@
+body{
+    background-color:#212121;
+    font-family: "Evogria";
+    color: #212121;
+}
+.navbar{
+    height: 200px;
+}
+
+.container{
+    width: 40%;
+    height: 250px;
+    border: 10px solid #E69347;
+    margin: 0 auto;
+}
+.top-bar{
+    background-color: #E69347;
+    height:30px;
+}
+.text-box{
+    color: #E69347;
+    margin: 10px;
+}
+
+.loading-gap{
+    height: 50px;
+    margin: 0 auto;
+    width: 55%;
+    font-size: 40px;
+    position: relative;
+    vertical-align: bottom;
+}
+.loading-text{
+    color: #E69347;
+    height: 50px;
+    width: 60%;
+    font-size: 35px;
+    margin: 0 auto;
+}
+
+.loading-bar{
+    border: 10px solid #E69347;
+    height: 50px;
+    width: 61%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.loading-first{
+    padding:5px;
+    width: 2%;
+    height: 80%;
+    background-color: #212121;
+    float: left;
+    margin-right: 7px;
+    margin-left: 1px;
+    
+}
+.loading-bit{
+    padding: 5px;
+    width: 2%;
+    height: 80%;
+    background-color: #212121;
+    float: left;
+    margin-right: 7px;
+    
+}
+.loading-last{
+    padding: 5px;
+    width: 2%;
+    height: 80%;
+    background-color: #212121;
+    float: left;
+
+}
+
+.buttons{
+    margin: 0 auto;
+    height: 50px;
+    width: 61%;
+    text-align: center;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+.butn{
+    background: transparent;
+    border: none !important;
+    font-size:30;
+    color: white;
+    width: 550px;
+    height: 100px;
+}
+.butn:focus {
+    outline: none;
+  }
+
+#console{
+    background-color: #212121;
+    width: 100%;
+    border: none;
+    color: white;
+    font-family: "Evogria";
+    text-align: top;
+
+}
+#console:focus{
+    outline: none;
+}
