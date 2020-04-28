@@ -20,6 +20,7 @@ body{
 .text-box{
     color: #E69347;
     margin: 10px;
+    /*border: red solid 2px;*/
 }
 
 .loading-gap{

@@ -3,16 +3,16 @@
     <head>
         <meta hhtp-equiv="content-type" content="text/html">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="script.js"></script>
     </head>
     <body>
         <div class="navbar"></div>
 
         <div class="container">
             <div class="top-bar">//LOADING . . .</div>
+            <div class ="text-box" id="arrH"></div>
             <div class="text-box">
                 <forum>
-                    <input type="text" id="console">
+                    <input type="text" id="console" onchange="conA()">
                 </forum>
                 </div>
         </div>
@@ -56,6 +56,17 @@
     </body>
 </html>
 <script>
+var arr = [];
+var clear = [];
+function conA(){
+    var blank = "";
+    if(document.getElementById("console").value != blank){
+        arr.push(document.getElementById("console").value)
+    };
+    var pork = arr.join().split(',').join("<br />");
+    document.getElementById("arrH").innerHTML = pork;
+    document.getElementById("console").value = blank;
+    }
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
@@ -67,6 +78,8 @@ function loadreset(){
         var divxd = document.getElementById("l".concat(i));
         divxd.style.backgroundColor= '#212121';
     }
+    arr.length=0;
+    conA();
 }
 
 function loadr(){
